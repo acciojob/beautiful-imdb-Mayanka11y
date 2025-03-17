@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+/* Movie Poster */
+.moviePic {
+    height: 450px; /* Fixed height */
+    width: 300px; /* Fixed width */
+    opacity: 0.9; /* Slightly transparent */
+    display: block;
+    margin: 20px auto; /* Center the image */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+/* Movie Description */
+.movieDetail {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for exact center */
+    width: 80%; /* Set width */
+    text-align: center; /* Center-align text */
+    font-size: 1.2rem; /* Font size */
+    color: #333; /* Text color */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
